@@ -1,4 +1,4 @@
-# W3DC MWA Assignment 2
+# [W3DC MWA Assignment 2](http://www.morphogenistes.org/olivier/w3c/mwa/assign2/)
 
 ## Disclaimer
 
