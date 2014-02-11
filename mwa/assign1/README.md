@@ -28,6 +28,6 @@ Using a library like JQuery for doing such basic tasks is overkill. Vanilla Java
 
 On the server side, GZIP compression doesn't seem to be enableb (no HTTP headers showing that serer compression is set up), server side optimisation does matter when delivering content to mobile, especially compression and cache. Compression can reduce bandwidth latencies as well as cost in user data traffic billing plan. 
 
-## ** Markup, Content, Structure **
+## **Markup, Content, Structure**
 
 HTML defines HTML5 doctype and use obsolete markup. The meta tag indicating charset encoding is old version, some deprecated inline style tags are present (like b), and the form could be updated using proper HTML5 form elements. Semantically, it's not perfect, should use label for input rather than div and class, as well as using HTML5 sectioning elements. The CSS files use absolute units like px to define font sizes as well as grid layout which should be fluid and scalable. 
