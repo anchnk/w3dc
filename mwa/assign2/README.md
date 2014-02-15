@@ -10,7 +10,7 @@ This application is based on progressive enhancement and features detection (mai
 
 Taking account this remark, in the current design principle, the application interactivity isn't going to work if Javascript isn't enable or supported. The only way I'm aware to make it work without Javascript would be using CSS pseudo class like target selectors and add elements to the DOM structure. This should be done in a real production environment however we assumed the client have Javascript support considering this.
 
-In order to make it as small as possible, no third-party libraries other than modernizr were included. Using vanilla Javascript made it possible to support most devices and most browsers. The code is based on classList DOM elements manipulation, if the browser doesn't support it modernizr load this [https://github.com/eligrey/classList.js](polyfill). Modernizr includes the HTML5 shim makint it possible to style HTML5 sectioning elements correctly in older browsers.
+In order to make it as small as possible, no third-party libraries other than modernizr were included. Using vanilla Javascript made it possible to support most devices and most browsers. The code is based on classList DOM elements manipulation, if the browser doesn't support it modernizr load this [https://github.com/eligrey/classList.js](polyfill). Modernizr includes the HTML5 shim making it possible to style HTML5 sectioning elements correctly in older browsers.
 
 ## Performance
 
