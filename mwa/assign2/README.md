@@ -29,7 +29,7 @@ The server configuration set cache expiration to 48 hours for JS files and 24 ho
 * **Motorola Blur** – Android 2.1 – Webkit Browser OK
 * **Opera Mobile emulator** Various Devices Selected
 
-Didn't tested much on emulators as I have access to a wide range of devices in my work. As emulators aren't really reliable i chose to test the application on several devices at work. The application behave correctly in most cases, however if the device doesn't support classList and connected to a 'low data' network as EDGE there's an unwanted flash of unstyled content occurring (fixed in last commit). I'm not sure yet how to handle this part (a loader before displaying content could be a hint).
+Didn't tested much on emulators as I have access to a wide range of devices in my work. As emulators aren't really reliable i chose to test the application on several devices at work. The application behave correctly in most cases, however if the device doesn't support classList and connected to a 'low data' network as EDGE there's an unwanted flash of unstyled content occurring (fixed in last commit).
 
 ## Related Readings
 
