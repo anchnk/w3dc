@@ -31,10 +31,12 @@ var diaryApp = {
       } else if (!!window.attachEvent) {
         this.entriesHeadings[i].attachEvent('onclick', this.animate);
       }
+      this.entriesDetails[i].style.display = 'block';
     }
   },
 
   animate: function (e) {
+    'use strict';
     var p;
 
     // Compatibility with IE8 as it doesn't bind this 
@@ -83,6 +85,7 @@ Modernizr.load({
   test : Modernizr.classlist,
   nope : ['js/classList.min.js'],
   complete : function () {
+    'use strict';
     diaryApp.init();
   }
 });
