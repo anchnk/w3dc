@@ -1,0 +1,49 @@
+#container {
+  /*position: relative;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-color: gray;
+}
+
+.block {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+  cursor:pointer;
+  width:100px;
+  height:100px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 10px;
+  line-height: 100px;
+  text-align: center;
+  color: white;
+    z-index: 2;
+ 	-webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+
+}
+.block:hover {
+  box-shadow: 0 0 10px #000000;
+  outline: 1px solid white;
+}
+
+h1 {
+	text-align: center;
+}
+
+/* TODO: Display Something better looking; */
+.no-js {
+	margin: 0 auto;
+	width: 80%;
+}
